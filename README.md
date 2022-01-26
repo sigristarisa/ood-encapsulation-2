@@ -112,7 +112,7 @@ class Person {
   }
 
   sayHello() {
-    console.log(this.#hello)
+    console.log("Hello " + this.#name)
   }
 }
 
