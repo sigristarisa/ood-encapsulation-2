@@ -76,7 +76,7 @@ if (light.isGreen()) {
 light.setRed()
 ```
 
-Although the internals of the `TrafficLight` class are the same, the methods we are using now _hide the implementation details_ - the code using the class does not know or care that the `TrafficLight` class is using a string to store the color. The methods `isGreed`, `setRed` completely hide the internal representation. They are obviously named and require no additional knowledge to use - we don't need to go and find the correct string value.
+Although the internals of the `TrafficLight` class are the same, the methods we are using now _hide the implementation details_ - the code using the class does not know or care that the `TrafficLight` class is using a string to store the color. The methods `isGreen`, `setRed` completely hide the internal representation. They are obviously named and require no additional knowledge to use - we don't need to go and find the correct string value.
 
 ## Exercise 1
 
