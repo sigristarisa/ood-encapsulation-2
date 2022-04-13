@@ -1,5 +1,5 @@
 class Task {
-  constructor(dateDue, description) {
+  constructor(dateDue = null, description) {
     //Task due date - not all tasks have a due date. If a task has no
     //due date, dueDate will be null
     this.dateDue = dateDue
